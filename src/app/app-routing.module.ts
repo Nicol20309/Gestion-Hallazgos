@@ -29,3 +29,6 @@ const routes: Routes = [
   exports: [RouterModule]
 })
 export class AppRoutingModule { }
+
+// En esta parte estan las rutas predefinidas de cada pagina, primero se definen con path ya luego se dice como buscar y luego se crea como el componente de esa pag
+// 

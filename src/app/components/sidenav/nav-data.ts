@@ -6,7 +6,7 @@ export const navbarData = [
     },
     {
         routeLink: 'agregar',
-        icon: 'fal fa-box-open',
+        icon: 'fal fa-plus',
         label: 'Products'
     },
     {
