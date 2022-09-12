@@ -1,4 +1,4 @@
-<div class="sidenav" [ngClass]="collapsed ? 'sidenav-collapsed': ''">
+<div class="sidenav" [ngClass]="collapsed ? 'sidenav-collapsed': ''" *ngIf="validateLink()"  >
     <div class="logo-container">
         <button class="logo" (click)="toggleCollapse()">ETB</button>
         <div class="logo-text" @fadeInOut *ngIf="collapsed">Menu</div>
